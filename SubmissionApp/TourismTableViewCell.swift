@@ -8,7 +8,7 @@
 import UIKit
 
 class TourismTableViewCell: UITableViewCell {
-
+    
     @IBOutlet var tourismImageView: UIImageView!
     
     @IBOutlet var tourismLabel: UILabel!

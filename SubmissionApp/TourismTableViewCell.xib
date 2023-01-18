@@ -31,10 +31,10 @@
                     </imageView>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="0zL-Z4-2o2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="2jZ-gz-d3E"/>
                     <constraint firstItem="0zL-Z4-2o2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Olx-Ko-Ksp"/>
                     <constraint firstItem="9fj-8k-x72" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="QRz-11-Tnp"/>
                     <constraint firstItem="9fj-8k-x72" firstAttribute="leading" secondItem="0zL-Z4-2o2" secondAttribute="trailing" constant="8" id="c0J-gD-cKY"/>
-                    <constraint firstItem="0zL-Z4-2o2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="egx-ll-Sgr"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9fj-8k-x72" secondAttribute="trailing" constant="8" id="whj-cM-3vJ"/>
                     <constraint firstAttribute="bottom" secondItem="0zL-Z4-2o2" secondAttribute="bottom" constant="8" id="y7l-DI-MoL"/>
                 </constraints>

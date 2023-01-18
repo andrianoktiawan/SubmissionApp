@@ -15,12 +15,13 @@ class DetailViewController: UIViewController {
     
     @IBOutlet var detailDescription: UILabel!
     
-    var tourism: TourismModel? = nil
+    var tourism: Places? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         if let result = tourism {
+            detailImage.loadFrom(URLAddress: result.image)
             detailName.text = result.name
             detailDescription.text = result.description
         }
