@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC71B9902977EDEF0010DFF4 /* TourismModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71B98F2977EDEF0010DFF4 /* TourismModel.swift */; };
+		FC71B9932977EFC70010DFF4 /* TourismTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71B9912977EFC70010DFF4 /* TourismTableViewCell.swift */; };
+		FC71B9942977EFC70010DFF4 /* TourismTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC71B9922977EFC70010DFF4 /* TourismTableViewCell.xib */; };
+		FC71B99A2978172E0010DFF4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71B9992978172E0010DFF4 /* DetailViewController.swift */; };
 		FCDB8A9B2977D84E009901AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB8A9A2977D84E009901AE /* AppDelegate.swift */; };
 		FCDB8A9D2977D84E009901AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB8A9C2977D84E009901AE /* SceneDelegate.swift */; };
 		FCDB8A9F2977D84E009901AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB8A9E2977D84E009901AE /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC71B98F2977EDEF0010DFF4 /* TourismModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismModel.swift; sourceTree = "<group>"; };
+		FC71B9912977EFC70010DFF4 /* TourismTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismTableViewCell.swift; sourceTree = "<group>"; };
+		FC71B9922977EFC70010DFF4 /* TourismTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourismTableViewCell.xib; sourceTree = "<group>"; };
+		FC71B9992978172E0010DFF4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FCDB8A972977D84E009901AE /* SubmissionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmissionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB8A9A2977D84E009901AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDB8A9C2977D84E009901AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				FCDB8AA32977D84F009901AE /* Assets.xcassets */,
 				FCDB8AA52977D84F009901AE /* LaunchScreen.storyboard */,
 				FCDB8AA82977D84F009901AE /* Info.plist */,
+				FC71B98F2977EDEF0010DFF4 /* TourismModel.swift */,
+				FC71B9912977EFC70010DFF4 /* TourismTableViewCell.swift */,
+				FC71B9922977EFC70010DFF4 /* TourismTableViewCell.xib */,
+				FC71B9992978172E0010DFF4 /* DetailViewController.swift */,
 			);
 			path = SubmissionApp;
 			sourceTree = "<group>";
@@ -128,6 +140,7 @@
 				FCDB8AA72977D84F009901AE /* LaunchScreen.storyboard in Resources */,
 				FCDB8AA42977D84F009901AE /* Assets.xcassets in Resources */,
 				FCDB8AA22977D84E009901AE /* Main.storyboard in Resources */,
+				FC71B9942977EFC70010DFF4 /* TourismTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDB8A9F2977D84E009901AE /* ViewController.swift in Sources */,
+				FC71B9932977EFC70010DFF4 /* TourismTableViewCell.swift in Sources */,
+				FC71B9902977EDEF0010DFF4 /* TourismModel.swift in Sources */,
+				FC71B99A2978172E0010DFF4 /* DetailViewController.swift in Sources */,
 				FCDB8A9B2977D84E009901AE /* AppDelegate.swift in Sources */,
 				FCDB8A9D2977D84E009901AE /* SceneDelegate.swift in Sources */,
 			);
