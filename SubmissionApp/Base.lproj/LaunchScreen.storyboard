@@ -19,19 +19,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SubmissionApp-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hBY-9O-3DZ">
                                 <rect key="frame" x="113.66666666666669" y="343" width="166" height="166"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List Wisata App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ImF-iZ-p4w">
-                                <rect key="frame" x="105.66666666666667" y="310.33333333333331" width="181.66666666666663" height="27.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
-                                <color key="textColor" red="0.83529411760000005" green="0.73725490199999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hBY-9O-3DZ" firstAttribute="top" secondItem="ImF-iZ-p4w" secondAttribute="bottom" constant="5" id="H2c-7U-KQ9"/>
                             <constraint firstItem="hBY-9O-3DZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="I2d-Fj-skG"/>
-                            <constraint firstItem="ImF-iZ-p4w" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="enM-oM-QEG"/>
                             <constraint firstItem="hBY-9O-3DZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="f6j-XK-pg4"/>
                         </constraints>
                     </view>
