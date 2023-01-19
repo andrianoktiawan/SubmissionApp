@@ -13,6 +13,10 @@ class TourismTableViewCell: UITableViewCell {
     
     @IBOutlet var tourismLabel: UILabel!
     
+    @IBOutlet var tourismLabelAddress: UILabel!
+    
+    @IBOutlet var tourismLabelLike: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

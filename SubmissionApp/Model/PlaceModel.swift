@@ -20,5 +20,6 @@ struct Places: Decodable {
     let description: String
     let address: String
     let image: String
+    let like: Int
     
 }

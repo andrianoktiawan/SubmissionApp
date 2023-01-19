@@ -15,6 +15,10 @@ class DetailViewController: UIViewController {
     
     @IBOutlet var detailDescription: UILabel!
     
+    @IBOutlet var detailAddress: UILabel!
+    
+    @IBOutlet var detailLike: UILabel!
+    
     var tourism: Places? = nil
     
     override func viewDidLoad() {
@@ -22,8 +26,11 @@ class DetailViewController: UIViewController {
 
         if let result = tourism {
             detailImage.loadFrom(URLAddress: result.image)
+            detailImage.layer.cornerRadius = 10
             detailName.text = result.name
             detailDescription.text = result.description
+            detailAddress.text = result.address
+            detailLike.text = String(result.like)
         }
     }
     

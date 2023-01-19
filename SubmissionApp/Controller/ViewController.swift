@@ -20,6 +20,7 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let apiService = ApiService()
         
         apiService.fetchData { (places) in
@@ -52,7 +53,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let detailWisata = myPlacesData?[indexPath.row]
         
         cell.tourismImageView.loadFrom(URLAddress: detailWisata?.image ?? "")
+        cell.tourismImageView.layer.cornerRadius = 10
         cell.tourismLabel.text = detailWisata?.name
+        cell.tourismLabelAddress.text = detailWisata?.address
+        cell.tourismLabelLike.text = String(detailWisata?.like ?? 0)
         
         return cell
     }
@@ -78,7 +82,6 @@ extension UIImageView {
         activityIndicator.frame = CGRect(x: 0, y: 0, width: 64, height: 64)
         activityIndicator.hidesWhenStopped = true
         activityIndicator.startAnimating()
-        //activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator.center = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2)
         self.addSubview(activityIndicator)
         contentMode = .scaleToFill
