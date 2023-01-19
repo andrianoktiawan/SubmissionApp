@@ -64,12 +64,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JKh-n8-Aqv">
-                                <rect key="frame" x="41.5" y="111.5" width="292" height="161"/>
+                                <rect key="frame" x="41.5" y="111" width="292" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="292" id="AVA-2C-wFJ"/>
                                     <constraint firstAttribute="height" constant="162" id="Czb-dB-1RQ"/>
                                 </constraints>
-                                <imageReference key="image" image="person.circle.fill" catalog="system" renderingMode="hierarchical-single">
+                                <imageReference key="image" image="Andrian-Oktiawan" renderingMode="hierarchical-single">
                                     <hierarchicalColors>
                                         <color red="0.83529411764705885" green="0.73725490196078436" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color systemColor="secondaryLabelColor"/>
@@ -77,14 +77,14 @@
                                     </hierarchicalColors>
                                 </imageReference>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJd-vc-IrS">
-                                <rect key="frame" x="139.5" y="285" width="96" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Andrian Oktiawan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJd-vc-IrS">
+                                <rect key="frame" x="100" y="285" width="175.5" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="johndoe@dicoding.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka9-SL-b4Q">
-                                <rect key="frame" x="93" y="325" width="189" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="andrianoktiawan@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka9-SL-b4Q">
+                                <rect key="frame" x="74" y="325" width="227.5" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -251,10 +251,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Andrian-Oktiawan" width="139" height="199"/>
         <image name="heart.square" catalog="system" width="128" height="114"/>
         <image name="mappin" catalog="system" width="106" height="128"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
