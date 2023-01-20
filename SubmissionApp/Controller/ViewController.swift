@@ -74,33 +74,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension UIImageView {
-    
-    func loadFrom(URLAddress: String) {
-        
-        let activityIndicator = UIActivityIndicatorView(style: .gray)
-        activityIndicator.frame = CGRect(x: 0, y: 0, width: 64, height: 64)
-        activityIndicator.hidesWhenStopped = true
-        activityIndicator.startAnimating()
-        activityIndicator.center = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2)
-        self.addSubview(activityIndicator)
-        contentMode = .scaleToFill
-        image = nil
-        
-        guard let url = URL(string: URLAddress) else {
-            return
-        }
-        
-        DispatchQueue.main.async { [weak self] in
-            if let imageData = try? Data(contentsOf: url) {
-                if let loadedImage = UIImage(data: imageData) {
-                    self?.image = loadedImage
-                    activityIndicator.stopAnimating()
-                }
-            }
-        }
-    }
-}
-
 
 
